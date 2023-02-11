@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.heading h1 {
+    font-family: 'Alegreya', serif;
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    text-align: center;
+    color: #ff7b25;
+}
+
+.navigation {
+    height: 55px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    font-size: 25px;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: flex;
+    margin: 0 14px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a:hover {
+    color: #ff7b25
+}
+
+
+.image1 img {
+    height: 350px;
+    margin: 52.5px;
+    margin-bottom: 0;
+}
+
+.image2 img {
+    height: 450px;
+    margin: 52.5px;
+    margin-bottom: 0;
+}
+
+.image1 li {
+    list-style: none;
+}
+
+.image2 li {
+    list-style: none;
+}
+
+.image1 li a {
+    margin-left: 52.5px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+}
+
+.image1 p {
+    margin-left: 52.5px;
+    margin-right: 52.5px;
+}
+
+.image2 li a {
+    margin-left: 52.5px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+}
+
+.image2 p {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 52.5px;
+    margin-top: -20px;
+}
+
+.content {
+    height: 575px;
+    /*background-color: blue;*/
+    display: flex;
+}
+
+.about h2 {
+    margin-top: 52.5px;
+    margin-left: 52.5px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    color: #ff7b25;
+}
+
+.about {
+    height: 405px;
+    /*background-color: blueviolet;*/
+    display: flex;
+}
+
+.about img {
+    height: 300px;
+    margin-right: 52.5px;
+    margin-top: 52.5px;
+}
+
+.about p {
+    margin-left: 52.5px;
+    margin-right: 52.5px;
+    font-size: 20px;
+}
+
+.footer {
+    height: 40px;
+    display: flex;
+}
+
+.footer h2 {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+    color: #ff7b25;
+    margin-left: 52.5px;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    margin-right: 52.5px !important;
+    margin-left: 621px;
+}
+
+.lastfooter {
+    height: 10px;
+    background-color: #ff7b25;
+}
+
+.content1 {
+    height: 600px;
+
+}
+
+.contenta {
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    display: flex;
+}
+
+.contentb {
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    display: flex;
+
+}
+
+.contentc {
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    display: flex;
+}
+
+.contentd {
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    display: flex;
+}
+
+.contente {
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 25px;
+    display: flex;
+}
+
+.contenta img {
+    height: 150px;
+}
+
+.contenta li {
+    list-style: none;
+}
+
+.contenta li a {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.contenta p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.para2 {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+}
+
+.para1 {
+    font-size: 11px;
+}
+
+.contentb img {
+    height: 150px;
+}
+
+.contentc img {
+    height: 150px;
+}
+
+.contentd img {
+    height: 150px;
+}
+
+.contente img {
+    height: 150px;
+}
+
+.contentb li {
+    list-style: none;
+}
+
+.contentc li {
+    list-style: none;
+}
+
+.contentd li {
+    list-style: none;
+}
+
+.contente li {
+    list-style: none;
+}
+
+.contentb li a {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.contentc li a {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.contentd li a {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.contente li a {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #ff7b25;
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.contentb p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contentc p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contentd p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contente p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content2a {
+    height: 50px;
+}
+
+.content2b {
+    height: 95px;
+}
+
+.content2b h2 {
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    color: #ff7b25;
+    font-size: 40px;
+}
+
+.credit {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.ima img {
+    width: 70vw;
+    margin: 10px;
+}
+
+.ima p {
+    margin-left: 15px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+}
+
+.ima1 {
+    display: flex;
+
+}
+
+.ima1 img {
+    height: 250px;
+}
+
+.ima1 p {
+    margin-left: 15px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+}
+
+.ima2 p {
+    margin-left: 15px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.space {
+    height: 50px;
+}
+
+.space1 {
+    height: 25px;
+}
